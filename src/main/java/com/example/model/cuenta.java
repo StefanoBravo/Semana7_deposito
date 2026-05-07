@@ -34,5 +34,27 @@ public class cuenta {
         this.n_cuenta = n_cuenta;
         this.saldo = saldo;
     }
+    public Integer getId() {
+    return id;
+}
 
+public void setId(Integer id) {
+    this.id = id;
+}
+
+public String getN_cuenta() {
+    return n_cuenta;
+}
+
+public void setN_cuenta(String n_cuenta) {
+    this.n_cuenta = n_cuenta;
+}
+
+public BigDecimal getSaldo() {
+    return saldo;
+}
+
+public void setSaldo(BigDecimal saldo) {
+    this.saldo = saldo;
+}
 }
